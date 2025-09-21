@@ -2093,13 +2093,15 @@ We did API calling in the previous lecture-46 and now in this lecture, we will t
 
 <img width="813" height="390" alt="image" src="https://github.com/user-attachments/assets/4fc5f94b-fdea-4521-aa90-0a396a009734" />
 
-<ins>Lec47_Comp.test.tsx</ins> 
+<ins>To write code for Lec47_Comp.test.tsx, we will first make some setup as below: </ins> 
 
 1. install MSW   
 
 > yarn add msw --dev
 
 2. inside **src** create a new file **setup.ts** file and add below code:
+
+<ins>setup.ts</ins>   
 
 ```javascript
 
@@ -2114,7 +2116,7 @@ afterEach(() => server.resetHandlers())
 3. inside **src** create a new folder **mocks** and add two files : server.ts and handlers.ts
 
 
-- server.ts   
+<ins>server.ts</ins>   
 
 ```javascript
 import { setupServer } from 'msw/node'
@@ -2124,7 +2126,7 @@ import { handlers } from './handlers'
 export const server = setupServer(...handlers)
 ```
 
-- handlers.ts   
+<ins>handlers.ts</ins>   
 
 
 ```javascript
