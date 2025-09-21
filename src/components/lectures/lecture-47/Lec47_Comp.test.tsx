@@ -1,25 +1,20 @@
+import { HttpResponse, http } from "msw";
 import Lec46_Comp from "../lecture-46/Lec46_Comp"
+
+import { server } from "../../../test/mocks/server";
+// import { render, screen, userEvent } from "../../utils/test-utils";
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 
-// Mock fetch globally
-const mockFetch = jest.fn();
-global.fetch = mockFetch;
+// Establish API mocking before all tests.
+beforeAll(() => server.listen())
 
-beforeEach(() => {
-  mockFetch.mockClear();
-  // Default successful response
-  mockFetch.mockResolvedValue({
-    ok: true,
-    json: async () => ({
-      todos: [
-        { id: 1, todo: "Do something nice", completed: true, userId: 26 },
-        { id: 2, todo: "Do something else", completed: true, userId: 11 },
-        { id: 3, todo: "Do something unique", completed: false, userId: 29 }
-      ]
-    })
-  } as Response);
-});
+// Reset any request handlers that we may add during the tests,
+// so they don't affect other tests.
+afterEach(() => server.resetHandlers())
+
+// Clean up after the tests are finished.
+afterAll(() => server.close())
 
 describe("App", () => {
   it("checking whether vite and react text is available", () => {
@@ -33,16 +28,24 @@ describe("App", () => {
     expect(await screen.findByText(/count is 1/i)).toBeInTheDocument();
   });
 
-  it("api success scenario on load", async () => {
+  it("api success secnario on load", async () => {
     render(<Lec46_Comp />);
     expect(await screen.findByText("Todo List : 3")).toBeInTheDocument();
   });
 
-  test('test for mock API', async() => {
-    render(<Lec46_Comp />)
-    const ele = await screen.findAllByRole('listitem')
-    expect(ele).toHaveLength(3)
-  })
+    test('test for mock API', async() => {
+   render(<Lec46_Comp />)
+   const ele = await screen.findAllByRole('listitem')
+   expect(ele).toHaveLength(3)
+ })
 
-  // Note: Error scenario test removed because the component doesn't handle fetch errors properly
+  it("api error scenario on load", () => {
+    render(<Lec46_Comp />);
+    server.use(
+      http.get("https://dummyjson.com/todos", () => {
+        return new HttpResponse(null, { status: 401 });
+      })
+    );
+    expect(screen.queryByText("Todo List")).not.toBeInTheDocument();
+  });
 });

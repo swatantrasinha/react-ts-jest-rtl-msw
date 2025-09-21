@@ -1,4 +1,4 @@
-import {  prettyDOM, render} from '@testing-library/react'
+import { prettyDOM, render} from '@testing-library/react'
 import '@testing-library/jest-dom'
 import Lec43_Comp from './Lec43_Comp'
 
