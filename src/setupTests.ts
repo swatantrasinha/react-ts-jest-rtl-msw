@@ -1,10 +1,12 @@
 import '@testing-library/jest-dom';
-import { TextEncoder, TextDecoder } from 'util';
 import 'whatwg-fetch';
+/*
+import { TextEncoder, TextDecoder } from 'util';
 
 // Polyfills for MSW
 global.TextEncoder = TextEncoder;
 global.TextDecoder = TextDecoder;
+*/
 
 // Mock BroadcastChannel for MSW
 class MockBroadcastChannel {

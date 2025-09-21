@@ -1,5 +1,5 @@
 import '@testing-library/jest-dom'
-import {render, screen, getAllByRole, within, waitFor} from '@testing-library/react'
+import {render, screen, within} from '@testing-library/react'
 import user from '@testing-library/user-event'
 import TodoList from './TodoList'
 
@@ -23,7 +23,7 @@ test('render one li per todo activity method 1', () => {
     // render the component
     render( <TodoList items={items} onDeleteTodo={onDeleteTodo} />)
 
-    screen.logTestingPlaygroundURL();
+    // screen.logTestingPlaygroundURL();
     
     const liItems=screen.getAllByRole('listitem')
     expect(liItems).toHaveLength(2) 
@@ -103,7 +103,7 @@ test('on delete button click one li item is vanished', async() => {
     const callback= (...args: any[]) => {
         argList.push(args)
     };
-    const onDeleteTodo= jest.fn();
+    
 
     render( <TodoList items={items} onDeleteTodo={callback} />)
 
