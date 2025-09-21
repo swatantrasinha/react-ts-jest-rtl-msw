@@ -2,7 +2,6 @@ import { HttpResponse, http } from "msw";
 import Lec46_Comp from "../lecture-46/Lec46_Comp"
 
 import { server } from "../../../test/mocks/server";
-// import { render, screen, userEvent } from "../../utils/test-utils";
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 
