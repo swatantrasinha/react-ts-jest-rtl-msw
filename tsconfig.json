@@ -22,5 +22,6 @@
     "types": ["vitest/globals"],
     "allowSyntheticDefaultImports": true
   },
-  "include": ["src", ".src/test/setup.ts", "vite.config.ts"]
+  "include": ["src", ".src/test/setup.ts", "vite.config.ts"],
+  "exclude": ["src/setupTests.ts"]
 }
