@@ -1,0 +1,1548 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lec12 : snapshot for App component 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h1>
+        Learn React JS
+      </h1>
+      <p>
+        Code Step By Step
+      </p>
+      <hr />
+      <h2>
+        Sample Components 
+      </h2>
+      <p
+        class="Person"
+      >
+        First Name : 
+        Swatantra
+         , Last Name : 
+        Sinha
+      </p>
+      <div>
+        <form>
+          <div>
+            <label
+              for="todo-text"
+            >
+              Todo Text
+            </label>
+            <input
+              id="todo-text"
+              type="text"
+            />
+          </div>
+          <button
+            type="submit"
+          >
+            Add ToDo
+          </button>
+        </form>
+        <hr />
+        <ul />
+      </div>
+      <hr />
+      <div
+        class="container"
+      >
+        <h2>
+          Lecture 05
+        </h2>
+        <div>
+          <p>
+            First React Test Case
+          </p>
+          <img
+            src="https://googlechrome.github.io/samples/picture-element/images/butterfly.webp"
+            title="butterfly"
+          />
+        </div>
+        <hr />
+        <h2>
+          Lecture 06
+        </h2>
+        <div>
+          <input
+            id="user-id"
+            name="username"
+            placeholder="Enter Username"
+            type="text"
+          />
+        </div>
+        <hr />
+        <h2>
+          Lecture 09
+        </h2>
+        <div>
+          <h1>
+            Test onChange Event with Input Textbox
+          </h1>
+          <div>
+            <input
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 10
+        </h2>
+        <div>
+          <h1>
+            Test click Event with Button
+          </h1>
+          <div>
+            <button>
+              Update Data
+            </button>
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 16
+        </h2>
+        <div>
+          <h1>
+             Functional Component Method Testing
+          </h1>
+          <button
+            data-testid="btn1"
+          >
+            Update
+          </button>
+          <button>
+            Print
+          </button>
+          <h2 />
+        </div>
+        <hr />
+        <h2>
+          Lecture 19
+        </h2>
+        <div>
+          <h1>
+            RTL Query: getByRole - Multiple Item with Role
+          </h1>
+          <h2>
+            Custom Role
+          </h2>
+          <button>
+            Click 1
+          </button>
+          <button>
+            Click 2
+          </button>
+          <label
+            for="input1"
+          >
+            User Name
+          </label>
+          <input
+            id="input1"
+            type="text"
+          />
+          <label
+            for="input2"
+          >
+            User Age
+          </label>
+          <input
+            id="input2"
+            type="text"
+          />
+          <div
+            role="dummy"
+          >
+            dummy text
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 20
+        </h2>
+        <div>
+          <h1>
+            RTL Query:  getAllByRole
+          </h1>
+          <div
+            class="btns-conatiner"
+          >
+            <button>
+              Click Me
+            </button>
+            <button>
+              Click Me
+            </button>
+            <button>
+              Click Me
+            </button>
+          </div>
+          <div
+            class="dropdown-container"
+          >
+            <option>
+              1
+            </option>
+            <option>
+              2
+            </option>
+            <option>
+              3
+            </option>
+            <option>
+              4
+            </option>
+            <option>
+              5
+            </option>
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 21
+        </h2>
+        <div>
+          <h1>
+            RTL Query : getByLabelText - textbox and checkbox testing 
+          </h1>
+          <div
+            class="textbox-container"
+          >
+            <label
+              for="user-name"
+            >
+              Username
+            </label>
+            <input
+              id="user-name"
+              type="text"
+              value="abc"
+            />
+          </div>
+          <div
+            class="checkbox-container"
+          >
+            <label
+              for="skills"
+            >
+              Skills
+            </label>
+            <input
+              checked=""
+              id="skills"
+              type="checkbox"
+            />
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 22
+        </h2>
+        <div>
+          <h1>
+            RTL Query : getAllByLabelText
+          </h1>
+          <div
+            class="textboxes-container"
+          >
+            <div
+              class="textbox-container1"
+            >
+              <label
+                for="user-name1"
+              >
+                Username
+              </label>
+              <input
+                id="user-name1"
+                type="text"
+                value="aaa"
+              />
+            </div>
+            <div
+              class="textbox-container2"
+            >
+              <label
+                for="user-name2"
+              >
+                Username
+              </label>
+              <input
+                id="user-name2"
+                type="text"
+                value="bbb"
+              />
+            </div>
+            <div
+              class="textbox-container3"
+            >
+              <label
+                for="user-name3"
+              >
+                Username
+              </label>
+              <input
+                id="user-name3"
+                type="text"
+                value="ccc"
+              />
+            </div>
+          </div>
+          <div
+            class="checkboxes-container"
+          >
+            <div
+              class="checkbox-container1"
+            >
+              <label
+                for="skill1"
+              >
+                Skills
+              </label>
+              <input
+                checked=""
+                id="skill1"
+                type="checkbox"
+              />
+            </div>
+            <div
+              class="checkbox-container2"
+            >
+              <label
+                for="skill2"
+              >
+                Skills
+              </label>
+              <input
+                checked=""
+                id="skill2"
+                type="checkbox"
+              />
+            </div>
+            <div
+              class="checkbox-container3"
+            >
+              <label
+                for="skill3"
+              >
+                Skills
+              </label>
+              <input
+                checked=""
+                id="skill3"
+                type="checkbox"
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 23
+        </h2>
+        <div>
+          <h1>
+            RTL Query : getByPlaceholderText and getAllByPlaceholderText 
+          </h1>
+          <div>
+            <input
+              placeholder="enter username"
+              type="text"
+              value="abc"
+            />
+          </div>
+          <div
+            class="input-container"
+          >
+            <input
+              placeholder="enter name"
+              type="text"
+              value="xyz"
+            />
+            <input
+              placeholder="enter name"
+              type="text"
+              value="xyz"
+            />
+            <input
+              placeholder="enter name"
+              type="text"
+              value="xyz"
+            />
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 24
+        </h2>
+        <div>
+          <h1>
+            RTL Query : getByText and getAllByText
+          </h1>
+          <button>
+            Login
+          </button>
+          <p
+            class="para-cls"
+            id="p1"
+          >
+            para tag testing
+          </p>
+          <h2>
+            Heading Level 2
+          </h2>
+          <h2>
+            Heading Level 2
+          </h2>
+        </div>
+        <hr />
+        <h2>
+          Lecture 25
+        </h2>
+        <div>
+          <h1>
+            RTL Query : getByTestId and getAllByTestId
+          </h1>
+          <div
+            data-testid="div-test-id"
+          >
+            This is div element
+          </div>
+          <h2
+            data-testid="h2-test-id"
+          >
+            Heading Level 2
+          </h2>
+          <p
+            data-testid="para-test-id"
+          >
+            This is para1 element
+          </p>
+          <p
+            data-testid="para-test-id"
+          >
+            This is para2 element
+          </p>
+        </div>
+        <hr />
+        <h2>
+          Lecture 26
+        </h2>
+        <div>
+          <h1>
+            RTL Query : Overriding data-testid
+          </h1>
+          <div
+            element-id="test-div"
+          >
+            This is div element
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 27
+        </h2>
+        <div>
+          <h1>
+            RTL Query : getByDisplayValue and getAllByDisplayValue 
+          </h1>
+          <div>
+            <input
+              type="text"
+              value="abc"
+            />
+          </div>
+          <div>
+            <textarea>
+              hello world
+            </textarea>
+          </div>
+          <div>
+            <input
+              type="radio"
+              value="male"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              value="enter query"
+            />
+            <input
+              type="text"
+              value="enter query"
+            />
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 28
+        </h2>
+        <div>
+          <h1>
+            RTL Query : getByTitle and getAllByTitle 
+          </h1>
+          <div>
+            <button
+              title="click to open"
+            >
+              Click Me
+            </button>
+          </div>
+          <div>
+            <span
+              title="black spade suit"
+            >
+              ♠
+            </span>
+          </div>
+          <div>
+            <span
+              title="black star"
+            >
+              ★
+            </span>
+            <span
+              title="black star"
+            >
+              ★
+            </span>
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 29
+        </h2>
+        <div>
+          <h1>
+            RTL Query : getByAltText and getAllByAltText 
+          </h1>
+          <div>
+            <img
+              alt="dummy image"
+              src="https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?w=900"
+            />
+          </div>
+          <div>
+            <img
+              alt="lemon and knife"
+              src="https://images.unsplash.com/photo-1600716051809-e997e11a5d52?q=80&w=2650"
+            />
+            <img
+              alt="lemon and knife"
+              src="https://images.unsplash.com/photo-1600716051809-e997e11a5d52?q=80&w=2650"
+            />
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 31
+        </h2>
+        <div>
+          <h1>
+            Lec31:  Assertion Methods
+          </h1>
+          <input
+            class="test-style my-custom-style"
+            data-test="dummy"
+            id="user"
+            name="userName"
+            type="text"
+            value="abc"
+          />
+          <button
+            class="btn1"
+            disabled=""
+            id="btn-id"
+          >
+            Click Me
+          </button>
+        </div>
+        <hr />
+        <h2>
+          Lecture 32
+        </h2>
+        <div>
+          <h1>
+            Lec32: TextMatch with String and Regex
+          </h1>
+          <div>
+            Hello World
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 33
+        </h2>
+        <div>
+          <h1>
+            Lec33: TextMatch with Function
+          </h1>
+          <div>
+            Hello World
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 34
+        </h2>
+        <div>
+          <h1>
+            Lec34: QueryBy and QueryAllBy
+          </h1>
+          <button>
+            Login
+          </button>
+        </div>
+        <hr />
+        <h2>
+          Lecture 35
+        </h2>
+        <div>
+          <h1>
+            Lec35:findBy and findAllBy | test async elements
+          </h1>
+          <div>
+            Data Not Found
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 36
+        </h2>
+        <div>
+          <h1>
+            Lec36 : Test Elements with JavaScript Query | Custom Query 
+          </h1>
+          <div
+            id="test-id"
+          >
+            Hello World
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 37
+        </h2>
+        <div>
+          <h1>
+            Lec37 : Querying Within Elements 
+          </h1>
+          <div>
+            Hello World
+            <p>
+              Hi
+            </p>
+            <p>
+              bye
+            </p>
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 38
+        </h2>
+        <div>
+          <h1>
+            Lec38 : Click Event with User Event Library
+          </h1>
+          <h2 />
+          <div>
+            <button>
+              Click Me
+            </button>
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 39
+        </h2>
+        <div>
+          <h1>
+            Lec 39: onChange Event Testing | Keyboard Interactions
+          </h1>
+          <h2 />
+          <div>
+            <input
+              placeholder="Enter Name"
+              type="text"
+            />
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 40
+        </h2>
+        <div>
+          <h1>
+            Lec 40 : act functions
+          </h1>
+          <h2 />
+          <div>
+            <input
+              placeholder="Enter Name"
+              type="text"
+            />
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 41
+        </h2>
+        <div>
+          <div>
+            <h1>
+              Lec 41 : Props Testing
+            </h1>
+            <h2>
+              Username is:
+              abcd
+            </h2>
+          </div>
+        </div>
+        <hr />
+        <h2>
+          Lecture 42
+        </h2>
+        <div>
+          <h1>
+            Lec 42: Functional Props Testing and Function Mocking
+          </h1>
+          <button>
+            Click
+          </button>
+        </div>
+        <hr />
+        <h2>
+          Lecture 46
+        </h2>
+        <div>
+          <a
+            href="https://vitejs.dev"
+            target="_blank"
+          />
+          <a
+            href="https://react.dev"
+            target="_blank"
+          />
+        </div>
+        <h1>
+          Vite + React
+        </h1>
+        <div
+          class="card"
+        >
+          <button>
+            count is 
+            0
+          </button>
+          0
+        </div>
+        <div>
+          <ul />
+        </div>
+        <hr />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <h1>
+      Learn React JS
+    </h1>
+    <p>
+      Code Step By Step
+    </p>
+    <hr />
+    <h2>
+      Sample Components 
+    </h2>
+    <p
+      class="Person"
+    >
+      First Name : 
+      Swatantra
+       , Last Name : 
+      Sinha
+    </p>
+    <div>
+      <form>
+        <div>
+          <label
+            for="todo-text"
+          >
+            Todo Text
+          </label>
+          <input
+            id="todo-text"
+            type="text"
+          />
+        </div>
+        <button
+          type="submit"
+        >
+          Add ToDo
+        </button>
+      </form>
+      <hr />
+      <ul />
+    </div>
+    <hr />
+    <div
+      class="container"
+    >
+      <h2>
+        Lecture 05
+      </h2>
+      <div>
+        <p>
+          First React Test Case
+        </p>
+        <img
+          src="https://googlechrome.github.io/samples/picture-element/images/butterfly.webp"
+          title="butterfly"
+        />
+      </div>
+      <hr />
+      <h2>
+        Lecture 06
+      </h2>
+      <div>
+        <input
+          id="user-id"
+          name="username"
+          placeholder="Enter Username"
+          type="text"
+        />
+      </div>
+      <hr />
+      <h2>
+        Lecture 09
+      </h2>
+      <div>
+        <h1>
+          Test onChange Event with Input Textbox
+        </h1>
+        <div>
+          <input
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 10
+      </h2>
+      <div>
+        <h1>
+          Test click Event with Button
+        </h1>
+        <div>
+          <button>
+            Update Data
+          </button>
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 16
+      </h2>
+      <div>
+        <h1>
+           Functional Component Method Testing
+        </h1>
+        <button
+          data-testid="btn1"
+        >
+          Update
+        </button>
+        <button>
+          Print
+        </button>
+        <h2 />
+      </div>
+      <hr />
+      <h2>
+        Lecture 19
+      </h2>
+      <div>
+        <h1>
+          RTL Query: getByRole - Multiple Item with Role
+        </h1>
+        <h2>
+          Custom Role
+        </h2>
+        <button>
+          Click 1
+        </button>
+        <button>
+          Click 2
+        </button>
+        <label
+          for="input1"
+        >
+          User Name
+        </label>
+        <input
+          id="input1"
+          type="text"
+        />
+        <label
+          for="input2"
+        >
+          User Age
+        </label>
+        <input
+          id="input2"
+          type="text"
+        />
+        <div
+          role="dummy"
+        >
+          dummy text
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 20
+      </h2>
+      <div>
+        <h1>
+          RTL Query:  getAllByRole
+        </h1>
+        <div
+          class="btns-conatiner"
+        >
+          <button>
+            Click Me
+          </button>
+          <button>
+            Click Me
+          </button>
+          <button>
+            Click Me
+          </button>
+        </div>
+        <div
+          class="dropdown-container"
+        >
+          <option>
+            1
+          </option>
+          <option>
+            2
+          </option>
+          <option>
+            3
+          </option>
+          <option>
+            4
+          </option>
+          <option>
+            5
+          </option>
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 21
+      </h2>
+      <div>
+        <h1>
+          RTL Query : getByLabelText - textbox and checkbox testing 
+        </h1>
+        <div
+          class="textbox-container"
+        >
+          <label
+            for="user-name"
+          >
+            Username
+          </label>
+          <input
+            id="user-name"
+            type="text"
+            value="abc"
+          />
+        </div>
+        <div
+          class="checkbox-container"
+        >
+          <label
+            for="skills"
+          >
+            Skills
+          </label>
+          <input
+            checked=""
+            id="skills"
+            type="checkbox"
+          />
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 22
+      </h2>
+      <div>
+        <h1>
+          RTL Query : getAllByLabelText
+        </h1>
+        <div
+          class="textboxes-container"
+        >
+          <div
+            class="textbox-container1"
+          >
+            <label
+              for="user-name1"
+            >
+              Username
+            </label>
+            <input
+              id="user-name1"
+              type="text"
+              value="aaa"
+            />
+          </div>
+          <div
+            class="textbox-container2"
+          >
+            <label
+              for="user-name2"
+            >
+              Username
+            </label>
+            <input
+              id="user-name2"
+              type="text"
+              value="bbb"
+            />
+          </div>
+          <div
+            class="textbox-container3"
+          >
+            <label
+              for="user-name3"
+            >
+              Username
+            </label>
+            <input
+              id="user-name3"
+              type="text"
+              value="ccc"
+            />
+          </div>
+        </div>
+        <div
+          class="checkboxes-container"
+        >
+          <div
+            class="checkbox-container1"
+          >
+            <label
+              for="skill1"
+            >
+              Skills
+            </label>
+            <input
+              checked=""
+              id="skill1"
+              type="checkbox"
+            />
+          </div>
+          <div
+            class="checkbox-container2"
+          >
+            <label
+              for="skill2"
+            >
+              Skills
+            </label>
+            <input
+              checked=""
+              id="skill2"
+              type="checkbox"
+            />
+          </div>
+          <div
+            class="checkbox-container3"
+          >
+            <label
+              for="skill3"
+            >
+              Skills
+            </label>
+            <input
+              checked=""
+              id="skill3"
+              type="checkbox"
+            />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 23
+      </h2>
+      <div>
+        <h1>
+          RTL Query : getByPlaceholderText and getAllByPlaceholderText 
+        </h1>
+        <div>
+          <input
+            placeholder="enter username"
+            type="text"
+            value="abc"
+          />
+        </div>
+        <div
+          class="input-container"
+        >
+          <input
+            placeholder="enter name"
+            type="text"
+            value="xyz"
+          />
+          <input
+            placeholder="enter name"
+            type="text"
+            value="xyz"
+          />
+          <input
+            placeholder="enter name"
+            type="text"
+            value="xyz"
+          />
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 24
+      </h2>
+      <div>
+        <h1>
+          RTL Query : getByText and getAllByText
+        </h1>
+        <button>
+          Login
+        </button>
+        <p
+          class="para-cls"
+          id="p1"
+        >
+          para tag testing
+        </p>
+        <h2>
+          Heading Level 2
+        </h2>
+        <h2>
+          Heading Level 2
+        </h2>
+      </div>
+      <hr />
+      <h2>
+        Lecture 25
+      </h2>
+      <div>
+        <h1>
+          RTL Query : getByTestId and getAllByTestId
+        </h1>
+        <div
+          data-testid="div-test-id"
+        >
+          This is div element
+        </div>
+        <h2
+          data-testid="h2-test-id"
+        >
+          Heading Level 2
+        </h2>
+        <p
+          data-testid="para-test-id"
+        >
+          This is para1 element
+        </p>
+        <p
+          data-testid="para-test-id"
+        >
+          This is para2 element
+        </p>
+      </div>
+      <hr />
+      <h2>
+        Lecture 26
+      </h2>
+      <div>
+        <h1>
+          RTL Query : Overriding data-testid
+        </h1>
+        <div
+          element-id="test-div"
+        >
+          This is div element
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 27
+      </h2>
+      <div>
+        <h1>
+          RTL Query : getByDisplayValue and getAllByDisplayValue 
+        </h1>
+        <div>
+          <input
+            type="text"
+            value="abc"
+          />
+        </div>
+        <div>
+          <textarea>
+            hello world
+          </textarea>
+        </div>
+        <div>
+          <input
+            type="radio"
+            value="male"
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            value="enter query"
+          />
+          <input
+            type="text"
+            value="enter query"
+          />
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 28
+      </h2>
+      <div>
+        <h1>
+          RTL Query : getByTitle and getAllByTitle 
+        </h1>
+        <div>
+          <button
+            title="click to open"
+          >
+            Click Me
+          </button>
+        </div>
+        <div>
+          <span
+            title="black spade suit"
+          >
+            ♠
+          </span>
+        </div>
+        <div>
+          <span
+            title="black star"
+          >
+            ★
+          </span>
+          <span
+            title="black star"
+          >
+            ★
+          </span>
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 29
+      </h2>
+      <div>
+        <h1>
+          RTL Query : getByAltText and getAllByAltText 
+        </h1>
+        <div>
+          <img
+            alt="dummy image"
+            src="https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?w=900"
+          />
+        </div>
+        <div>
+          <img
+            alt="lemon and knife"
+            src="https://images.unsplash.com/photo-1600716051809-e997e11a5d52?q=80&w=2650"
+          />
+          <img
+            alt="lemon and knife"
+            src="https://images.unsplash.com/photo-1600716051809-e997e11a5d52?q=80&w=2650"
+          />
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 31
+      </h2>
+      <div>
+        <h1>
+          Lec31:  Assertion Methods
+        </h1>
+        <input
+          class="test-style my-custom-style"
+          data-test="dummy"
+          id="user"
+          name="userName"
+          type="text"
+          value="abc"
+        />
+        <button
+          class="btn1"
+          disabled=""
+          id="btn-id"
+        >
+          Click Me
+        </button>
+      </div>
+      <hr />
+      <h2>
+        Lecture 32
+      </h2>
+      <div>
+        <h1>
+          Lec32: TextMatch with String and Regex
+        </h1>
+        <div>
+          Hello World
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 33
+      </h2>
+      <div>
+        <h1>
+          Lec33: TextMatch with Function
+        </h1>
+        <div>
+          Hello World
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 34
+      </h2>
+      <div>
+        <h1>
+          Lec34: QueryBy and QueryAllBy
+        </h1>
+        <button>
+          Login
+        </button>
+      </div>
+      <hr />
+      <h2>
+        Lecture 35
+      </h2>
+      <div>
+        <h1>
+          Lec35:findBy and findAllBy | test async elements
+        </h1>
+        <div>
+          Data Not Found
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 36
+      </h2>
+      <div>
+        <h1>
+          Lec36 : Test Elements with JavaScript Query | Custom Query 
+        </h1>
+        <div
+          id="test-id"
+        >
+          Hello World
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 37
+      </h2>
+      <div>
+        <h1>
+          Lec37 : Querying Within Elements 
+        </h1>
+        <div>
+          Hello World
+          <p>
+            Hi
+          </p>
+          <p>
+            bye
+          </p>
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 38
+      </h2>
+      <div>
+        <h1>
+          Lec38 : Click Event with User Event Library
+        </h1>
+        <h2 />
+        <div>
+          <button>
+            Click Me
+          </button>
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 39
+      </h2>
+      <div>
+        <h1>
+          Lec 39: onChange Event Testing | Keyboard Interactions
+        </h1>
+        <h2 />
+        <div>
+          <input
+            placeholder="Enter Name"
+            type="text"
+          />
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 40
+      </h2>
+      <div>
+        <h1>
+          Lec 40 : act functions
+        </h1>
+        <h2 />
+        <div>
+          <input
+            placeholder="Enter Name"
+            type="text"
+          />
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 41
+      </h2>
+      <div>
+        <div>
+          <h1>
+            Lec 41 : Props Testing
+          </h1>
+          <h2>
+            Username is:
+            abcd
+          </h2>
+        </div>
+      </div>
+      <hr />
+      <h2>
+        Lecture 42
+      </h2>
+      <div>
+        <h1>
+          Lec 42: Functional Props Testing and Function Mocking
+        </h1>
+        <button>
+          Click
+        </button>
+      </div>
+      <hr />
+      <h2>
+        Lecture 46
+      </h2>
+      <div>
+        <a
+          href="https://vitejs.dev"
+          target="_blank"
+        />
+        <a
+          href="https://react.dev"
+          target="_blank"
+        />
+      </div>
+      <h1>
+        Vite + React
+      </h1>
+      <div
+        class="card"
+      >
+        <button>
+          count is 
+          0
+        </button>
+        0
+      </div>
+      <div>
+        <ul />
+      </div>
+      <hr />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
