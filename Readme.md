@@ -139,7 +139,8 @@ test('renders learn react link', () => {
 
 <details>
     <summary> <ins>Lecture 06: Test Input box </ins> </summary>
-    <img width="646" height="543" alt="image" src="https://github.com/user-attachments/assets/d9490e07-455f-4ea4-b018-62c0081317a5" />
+   <img width="645" height="540" alt="image" src="https://github.com/user-attachments/assets/cacaaab8-a040-4675-8a48-fac92ec9bf28" />
+
     
 <p>
     <ins>Lec06_Comp.tsx</ins>
