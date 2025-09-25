@@ -7,21 +7,21 @@ This is course for learning how to write testcase using jest and RTL.
 
 <details>
     <summary> <ins>Types of Testing</ins> </summary>
-    <img width="944" height="599" alt="image" src="https://github.com/swatantrasinha/jest-and-RTL/blob/main/screenshots/001-type_Of_Testing.png" />
+    <img width="845" height="467" alt="image" src="https://github.com/user-attachments/assets/371fcad3-11f2-44ba-ae29-7acba5fb1ce0" />
 </details>
 
 <hr/>
 
 <details>
     <summary> <ins> Our Focus Area </ins> </summary>
-    <img width="944" height="599" alt="image" src="https://github.com/swatantrasinha/jest-and-RTL/blob/main/screenshots/002-Our_Focus_Area.png" />
+    <img width="957" height="500" alt="image" src="https://github.com/user-attachments/assets/43ada3f4-c70e-48d2-a8fa-f00c0552f2e3" />
 </details>
 
 <hr/>
 
 <details>
     <summary> <ins>Lecture 03: Write Basic Test Case</ins> </summary>
-    <img width="944" height="599" alt="image" src="https://github.com/user-attachments/assets/7c9ba42d-36a7-43c5-9238-c7ed698fd68e" />
+    <img width="884" height="558" alt="image" src="https://github.com/user-attachments/assets/42db5a52-99ac-4918-9c32-2f94c4b04196" />
 
 Refer to : [jest Docs](https://jestjs.io/docs/api)
 
@@ -48,7 +48,7 @@ test('testing for sum function', () => {
 
 <details>
     <summary> <ins>Lecture 04: Understand React Test Structure </ins> </summary>
-    <img width="684" height="348" alt="image" src="https://github.com/user-attachments/assets/9fe79f92-f1c1-4169-a3a4-6a6c7e71cf5c" />
+    <img width="649" height="330" alt="image" src="https://github.com/user-attachments/assets/ee35cbde-3bf1-4475-be3f-58d5ef4f1feb" />
 
     
 <ins>App.tsx</ins>
@@ -94,7 +94,8 @@ test('renders learn react link', () => {
 
 <details>
     <summary> <ins>Lecture 05: Write First React Testcase </ins> </summary>
-     <img width="681" height="383" alt="image" src="https://github.com/user-attachments/assets/f427770e-6ff8-4608-9732-383c8f0c2227" />
+    <img width="888" height="505" alt="image" src="https://github.com/user-attachments/assets/347d60a0-b8ca-4ee1-adaf-e1b148d1d9d1" />
+
 <p>
     <ins>Lec05_Comp.tsx</ins>
     
