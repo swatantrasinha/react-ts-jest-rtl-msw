@@ -186,7 +186,7 @@ test('renders learn react link', () => {
 
 <details>
     <summary> <ins> Lec 07: Test Case Run Options </ins></summary>
-    <img width="646" height="462" alt="image" src="https://github.com/user-attachments/assets/70918507-e9e7-483b-ac2e-6816f79aadf5" />
+    <img width="643" height="456" alt="image" src="https://github.com/user-attachments/assets/0659e9de-cf73-408b-b411-c3f79fe75a91" />
 <p>
         
 When we give below command in watch mode :    
@@ -194,8 +194,7 @@ When we give below command in watch mode :
 > npm test -- --watch
 
 It shows options like   
-<img width="374" height="116" alt="image" src="https://github.com/user-attachments/assets/e3d029dd-fe5f-42ef-8f5a-2da223aa6b55" />
-
+<img width="804" height="313" alt="image" src="https://github.com/user-attachments/assets/ee0f247d-a82d-42d6-be4a-eaaa6fa7de67" />
 </p>
 
 </details>
@@ -205,11 +204,8 @@ It shows options like
 <details>
 <summary> <ins> Lec 08: Test grouping with describe function </ins></summary>
 <p>
-<img width="638" height="406" alt="image" src="https://github.com/user-attachments/assets/4acc47de-5b66-47c1-a7f6-745b0c8fd9d6" />   
-    
-<ins>How to group test cases ?</ins>   
+<img width="640" height="405" alt="image" src="https://github.com/user-attachments/assets/d4460276-3c7a-4ddd-b7ca-e7d9b75588a7" />
 
-<img width="725" height="644" alt="image" src="https://github.com/user-attachments/assets/f0767c89-4872-4c66-bfd3-0eb6213c0060" />
 
 <in>Note: </ins> 
 
