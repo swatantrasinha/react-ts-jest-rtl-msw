@@ -223,7 +223,7 @@ It shows options like
 <details>
 <summary> <ins> Lec 09: Test on change event | event fire </ins></summary>
 <p>   
-<img width="640" height="366" alt="image" src="https://github.com/user-attachments/assets/a2ddae13-f1e3-4797-99af-82a9fa2fdef7" />   
+<img width="647" height="377" alt="image" src="https://github.com/user-attachments/assets/bae26c4d-fb16-4395-81bb-e30130b90f10" /> 
 
 <ins>Lec09_Comp.tsx</ins>
 
@@ -267,7 +267,8 @@ test('onChange event testing', () => {
 <details>
 <summary> <ins> Lec 10: Click event test case with button | event fire </ins></summary>
 <p> 
-<img width="646" height="357" alt="image" src="https://github.com/user-attachments/assets/b9fe95d4-4117-44bc-9d53-47a25e963ca4" />
+<img width="647" height="377" alt="image" src="https://github.com/user-attachments/assets/bf6b20c5-f2ab-4990-9103-4bffc7f93da5" />
+
 
 <ins>Lec10_Comp.tsx</ins>
 ```javascript
